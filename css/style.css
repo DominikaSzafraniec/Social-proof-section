@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 6rem 2rem;
+}
+
+.reviews__title {
+  text-align: center;
+}
+.reviews__heading {
+  color: hsl(300, 43%, 22%);
+  font-size: 3rem;
+}
+.reviews__info {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  color: hsl(303, 10%, 53%);
+  line-height: 1.4;
+}
+.reviews__stars-box {
+  margin: 3rem 0 4rem 0;
+}
+.reviews__star-box {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  background-color: hsl(300, 24%, 96%);
+  text-align: center;
+  border-radius: 8px;
+}
+.reviews__stars-icons img {
+  margin-right: 0.5rem;
+  height: 12px;
+  width: 12px;
+}
+.reviews__stars-info {
+  margin-top: 0.7rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.reviews__feedback-card {
+  padding: 3rem;
+  margin-bottom: 1.2rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+}
+.reviews__feedback-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+.reviews__feedback-heading img {
+  margin-right: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.reviews__feedback-name {
+  margin-bottom: 0.2rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.reviews__verified {
+  color: hsl(333, 80%, 67%);
+  font-size: 1.4rem;
+}
+.reviews__feedback-info {
+  color: hsl(300, 24%, 96%);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .reviews__info-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 14rem;
+  }
+  .reviews__title {
+    width: 48%;
+    text-align: left;
+  }
+  .reviews__heading {
+    font-size: 5rem;
+  }
+  .reviews__stars-box {
+    width: 48%;
+  }
+  .reviews__star-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1.6rem 3rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 85%;
+  }
+  .reviews__star-box--middle {
+    margin: 0 auto 1rem auto;
+  }
+  .reviews__star-box--right {
+    margin-left: auto;
+  }
+  .reviews__stars-icons {
+    margin-right: 2rem;
+  }
+  .reviews__stars-info {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=style.css.map */

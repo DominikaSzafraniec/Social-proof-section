@@ -1,0 +1,47 @@
+@media (min-width: 992px) {
+  .reviews {
+    &__info-box {
+      display: flex;
+      gap: 14rem;
+    }
+
+    &__title {
+      width: 48%;
+      text-align: left;
+    }
+
+    &__heading {
+      font-size: 5rem;
+    }
+
+    &__stars-box {
+      width: 48%;
+    }
+
+    &__star-box {
+      display: flex;
+      padding: 1.6rem 3rem;
+      align-items: center;
+      width: 85%;
+      
+
+      &--middle {
+        margin: 0 auto 1rem auto;
+      }
+
+
+      &--right {
+        margin-left: auto;
+      }
+    }
+
+    &__stars-icons {
+      margin-right: 2rem;
+    }
+
+    &__stars-info {
+      margin-top: 0;
+    }
+  }
+
+}
