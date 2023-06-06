@@ -96,6 +96,9 @@ body {
 }
 
 @media (min-width: 992px) {
+  .section {
+    padding: 15rem 2rem;
+  }
   .reviews__info-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,5 +136,22 @@ body {
   }
   .reviews__stars-info {
     margin-top: 0;
+  }
+  .reviews__feedback-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 3rem;
+    padding-top: 5rem;
+  }
+  .reviews__feedback-card {
+    height: 90%;
+    width: 100%;
+  }
+  .reviews__feedback-card--middle {
+    margin-top: 2rem;
+  }
+  .reviews__feedback-card--bottom {
+    margin-top: 4rem;
   }
 }/*# sourceMappingURL=style.css.map */

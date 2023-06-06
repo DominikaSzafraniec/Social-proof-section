@@ -1,4 +1,7 @@
 @media (min-width: 992px) {
+  .section {
+    padding: 15rem 2rem;
+  }
   .reviews {
     &__info-box {
       display: flex;
@@ -42,6 +45,23 @@
     &__stars-info {
       margin-top: 0;
     }
-  }
 
+    &__feedback-cards {
+      display: flex;
+      gap: 3rem;
+      padding-top: 5rem;
+    }
+
+    &__feedback-card {
+      height: 90%;
+      width: 100%;
+
+      &--middle {
+        margin-top: 2rem;
+      }
+      &--bottom {
+        margin-top: 4rem;
+      }
+    }
+  }
 }
